@@ -1,10 +1,5 @@
-Here is the complete, highly engaging, and visually structured Markdown code for your `README.md`. 
 
-I have used dynamic GitHub badges, blockquotes, varying header sizes (`#`, `##`, `###`), and emojis to make it look like a top-tier open-source project. 
 
-Just copy everything inside the code block below and paste it directly into your GitHub `README.md` file!
-
-```markdown
 # 🕵️‍♂️ I.D.V.S: Integrated Deepfake Verification System
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
@@ -46,7 +41,7 @@ I.D.V.S. bridges the gap between pixel-level forensics and human biology. By fus
 
 ## 📂 Repository Structure
 
-```text
+
 IDVS-Deepfake-Detection/
 ├── backend_api.py         # FastAPI routing and asynchronous endpoints
 ├── backend_logic.py       # Core inference orchestration and fusion logic
@@ -58,7 +53,7 @@ IDVS-Deepfake-Detection/
 │   └── package.json
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
-```
+
 
 ---
 
@@ -70,14 +65,14 @@ IDVS-Deepfake-Detection/
 * *(Optional)* NVIDIA GPU with CUDA support for accelerated inference
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/christapher25/IDVS-Deepfake-Detection.git
 cd IDVS-Deepfake-Detection
-```
+
 
 ### 2. Backend Setup (Python)
 Create an isolated virtual environment and install the required machine learning dependencies:
-```bash
+
 # Create virtual environment
 python -m venv .venv
 
@@ -88,37 +83,37 @@ source .venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-```
+
 
 ### 3. Download Pre-trained Weights
 To keep this repository lightweight, the heavily trained neural network weights are hosted externally.
 
 ### 4. Frontend Setup (React/Vite)
 Open a new terminal window, navigate to the frontend folder, and install the Node modules:
-```bash
+
 cd frontend
 npm install
-```
 
----
+
+
 
 ## 💻 How to Run the Application
 
 **Step 1: Start the FastAPI Backend**
 Ensure your Python virtual environment is active, then run:
-```bash
+
 uvicorn backend_api:app --reload
-```
+
 *The API will boot up securely at `http://localhost:8000`*
 
 **Step 2: Start the React Frontend**
 In your frontend terminal, execute:
-```bash
+
 npm run dev
-```
+
 *The interactive dashboard will be available at `http://localhost:5173`*
 
----
+
 
 ## 🎓 Academic Context
 This project was developed as a **B.Tech Computer Science and Engineering (AI/ML)** Mini-Project at St. Thomas College of Engineering & Technology under APJ Abdul Kalam Technological University.
