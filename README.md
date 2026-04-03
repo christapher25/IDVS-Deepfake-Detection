@@ -44,14 +44,19 @@ I.D.V.S. bridges the gap between pixel-level forensics and human biology. By fus
 
 IDVS-Deepfake-Detection/
 ├── backend_api.py         # FastAPI routing and asynchronous endpoints
+
 ├── backend_logic.py       # Core inference orchestration and fusion logic
+
 ├── models/                # ML architecture definitions and training scripts
 │   ├── 8_train_efficientnet.py
 │   └── 4_inference_logic.py
+
 ├── frontend/              # React/Vite UI codebase
 │   ├── src/
 │   └── package.json
+
 ├── requirements.txt       # Python dependencies
+
 └── README.md              # Project documentation
 
 
