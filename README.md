@@ -48,11 +48,15 @@ IDVS-Deepfake-Detection/
 ├── backend_logic.py       # Core inference orchestration and fusion logic
 
 ├── models/                # ML architecture definitions and training scripts
+
 │   ├── 8_train_efficientnet.py
+
 │   └── 4_inference_logic.py
 
 ├── frontend/              # React/Vite UI codebase
+
 │   ├── src/
+
 │   └── package.json
 
 ├── requirements.txt       # Python dependencies
