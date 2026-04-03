@@ -137,5 +137,6 @@ This project was developed as a **B.Tech Computer Science and Engineering (AI/ML
 
 ## 📄 License
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details. 
-https://github.com/christapher25/IDVS-Deepfake-Detection/blob/main/LICENSE
+
 ```
+https://github.com/christapher25/IDVS-Deepfake-Detection/blob/main/LICENSE
