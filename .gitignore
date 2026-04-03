@@ -1,0 +1,18 @@
+# Python Virtual Environment (CRITICAL TO IGNORE)
+.venv/
+venv/
+__pycache__/
+
+# Datasets and Media
+dataset_processed/
+debug_crops/
+debug_failures/
+*.mp4
+*.avi
+*.jpg
+*.png
+
+# Ignore large model weights (but keep the folder structure)
+models/*.pth
+models/*.pt
+models/*.h5
